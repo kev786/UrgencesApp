@@ -1,0 +1,10 @@
+build/
+out/
+sources.txt
+*.class
+*.jar
+.idea/
+*.iml
+.classpath
+.project
+.settings/
