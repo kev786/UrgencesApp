@@ -1,10 +1,50 @@
-build/
-out/
-sources.txt
+# === Fichiers compilés Java ===
 *.class
-*.jar
+bin/
+out/
+
+# === Configuration locale (chacun a son propre mot de passe MySQL) ===
+resources/config.properties
+
+# === Logs ===
+*.log
+
+# === Fichiers spécifiques aux IDE ===
+
+# IntelliJ IDEA
 .idea/
 *.iml
-.classpath
+*.ipr
+*.iws
+
+# Eclipse
 .project
+.classpath
 .settings/
+bin/
+
+# VS Code
+.vscode/
+
+# NetBeans
+nbproject/
+nbbuild/
+nbdist/
+.nb-gradle/
+
+# === Fichiers système ===
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# === Fichiers temporaires / sauvegardes d'éditeur ===
+*.swp
+*.bak
+*.tmp
